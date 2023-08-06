@@ -46,12 +46,17 @@ footer {
     color: white;
 }
 
-.cuadro {
-    height: 90%;
+section {
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.cuadro {
     padding: 8px;
     box-sizing: border-box;
 }
